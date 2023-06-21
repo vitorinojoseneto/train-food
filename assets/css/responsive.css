@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/**
+ * FOLHA DE ESTILO RESPONSÁVEL PELA RESPONSIDADE
+ */
+/**
+ * Trabalhando a responsividade do site
+ */
+/**
+ * Aqui se trabalhou o extra small devices
+ */
+@media (max-width: 575px) {}
+/**
+ * Aqui se trabalhou o small devices
+ */
+@media (min-width: 576px) and (max-width: 767px) {  }
+/**
+ * Aqui se trabalhou o medium devices
+ */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/**
+ * Aqui se trabalhou o large devices
+ */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*# sourceMappingURL=responsive.css.map */
