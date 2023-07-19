@@ -12,9 +12,65 @@
 /**
  * Aqui se trabalhou o small devices
  */
-@media (min-width: 576px) and (max-width: 767px) { 
+@media (min-width: 576px) and (max-width: 767px) {
+    *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: sans-serif;
+} 
     body{
         background-color: red;
+    }
+    .main_header{
+        background-color: white;
+        box-shadow: 8px 7px 9px #000;
+    
+    }
+    .container{
+        display: block;
+        margin: 0 auto;
+        width: 94%;
+    }
+    .menu_header{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+
+}
+    .logo{
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 20pt;
+    }
+    .ul_navbar{
+        display:none;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu_icon{
+        font-size: 18pt;
+    }
+    .first_section{
+        background:url('../image/R.jfif');
+        background-size:cover;
+        background-position: right;
+        height: 400px;
+    }
+    .test{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        height: 300px;
+    }
+    .content_fs{
+        display: flex;
+        flex-direction: column;
     }
  }
 /**
