@@ -330,6 +330,11 @@ form button{
     min-width: 100vw;
     min-height: 96%;
 }
+.content_portfolio{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+}
 .fouth_section{
     background: linear-gradient(370deg,#fff7,#fff7,#0009,#0009,#0009),url('../image/contact.jpg');
     background-size: cover;
