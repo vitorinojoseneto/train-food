@@ -55,6 +55,7 @@ form{
 .input_navbar{
     width: 90%;
     height: 100%;
+    text-align: center;
     background-color: transparent;
 }
 form button{
@@ -96,16 +97,141 @@ form button{
     overflow: auto;
 }
 .first_section{
-    background: linear-gradient(370deg,#0009,#0009,#0009,#fff7,#fff7),url('../image/bg-s1-chefe.webp');
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     min-width: 100%;
     min-height: 96%;
+    background: linear-gradient(370deg,#0009,#0009,#0009,#fff7,#fff7),url('../image/bg-s1-chefe.webp');
+    background-size: cover;
 }
-.first_section{
-    background: linear-gradient(370deg,#0009,#0009,#0009,#fff7,#fff7),url('../image/bg-s1-chefe.webp');
-    background-size: cover;
-    min-width: 100%;
-    min-height: 96%;
+.first_div{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
+.one_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    width: 50%;
+    height: 60vh;
+}
+.h1_one_div{
+    color: white;
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.paragraph_one_div{
+    color: grey;
+    font-size: 2em;
+    font-weight: 300;
+    font-family:  sans-serif;
+    margin: 40px 0px;
+}
+.link_one_div{
+    color: white;
+    font-size: 13pt;
+    font-weight: 300;
+    text-align: center;
+    width: 150px;
+    padding: 14px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.two_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: self-end;
+    width: 50%;
+    height: 60vh;
+}
+
+.h3_two_div{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.footer{
+    width: 60%;
+   
+    border-radius: 10px 10px 0px 0px;
+    background:rgba(00, 00, 00, .7);
+}
+.network_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: self-start;
+    width: 30%;
+    padding: 15px;
+}
+.h1_footer{
+    color: gainsboro;
+    font-family: Impact;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.net_contact{
+    color: gray;
+    padding: 0px 10px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.d-border{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.content_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+}
+.one_footer_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 120px;
+    padding-left: 50px;
+    border-right: 1px solid gray;
+}
+.one_footer_div h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.one_footer_div p{
+    color: gray;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.two_footer_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 150px;
+    padding-left: 50px;
+}
+.two_footer_div h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.two_footer_div p{
+    color: gray;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 .secund_section{
     background: linear-gradient(370deg,#0009,#0009,#0009),url('../image/third.jfif');
